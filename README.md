@@ -17,24 +17,12 @@ We go through creating 2 different kinds of NFTs.
 </p>
 <br/>
 
-# Getting Started
-
-## Requirements
+# Requirements
 
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
   - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
 - [foundry](https://getfoundry.sh/)
-  - You'll know you did it right if you can run `forge --version` and you see a response like `forge 0.2.0 (816e00b 2023-03-16T00:05:26.396218Z)`
-
-
-## Quickstart
-
-```
-git clone https://github.com/Cyfrin/foundry-nft-cu
-cd foundry-nft-cu
-forge install
-forge build
-```
+  - You'll know you did it right if you can run `forge --version` and you see a response like `forge 0.2.0 (816e00b 2023-03-16T00:05:26.396218Z)``
 
 # Usage
 
@@ -58,14 +46,13 @@ make deploy
 
 ## Testing
 
-Covered 4 test tiers in the video. 
+Covered 4 test tiers in this project
 
 1. Unit
 2. Integration
 3. Forked
 4. Staging
 
-This repo we cover #1 and #3. 
 
 ```
 forge test
